@@ -4,7 +4,6 @@ import "../css/Catalogo.css";
 function Catalogo() {
   return (
     <div className="catalogo">
-      
     </div>
   );
 }
