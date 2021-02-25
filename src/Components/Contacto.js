@@ -7,7 +7,6 @@ function Contacto() {
       <div className="container">
         <div className="title">
           <h2>Contact Us</h2>
-          <p>Swing by for a cup of coffee, or leave us a message:</p>
         </div>
         <div className="row">
           <div className="column">
@@ -16,24 +15,32 @@ function Contacto() {
               alt="Map"
               src="https://www.w3schools.com/w3images/map.jpg"
             />
+            <a
+              href="https://wa.me/14233817689"
+              className="whatsapp_float"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
           </div>
-          <div class="column">
+          <div className="column">
             <form action="/action_page.php">
-              <label for="fname">Nombre</label>
+              <label htmlFor="fname">Nombre</label>
               <input
                 type="text"
                 id="fname"
                 name="firstname"
                 placeholder="Tu nombre..."
               />
-              <label for="lname">Apellido</label>
+              <label htmlFor="lname">Apellido</label>
               <input
                 type="text"
                 id="lname"
                 name="lastname"
                 placeholder="Tu apellido..."
               />
-              <label for="subject">Pregunta</label>
+              <label htmlFor="subject">Pregunta</label>
               <textarea
                 id="subject"
                 name="subject"
