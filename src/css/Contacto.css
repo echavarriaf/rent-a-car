@@ -98,3 +98,7 @@ input[type="submit"]:hover {
     font-size: 22px;
   }
 }
+
+.contact_information p {
+  margin-bottom: 0 !important;
+}

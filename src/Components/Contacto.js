@@ -23,6 +23,21 @@ function Contacto() {
             >
               <i className="fa fa-whatsapp whatsapp-icon"></i>
             </a>
+            <div className="contact_information">
+              <p>
+                <strong>Dirección:</strong>
+              </p>
+              <p>Calle Dr. Tejada Florentino con Calle Regino Camilo</p>
+              <p>Tenares, Hermanas Mirabal, Dominican Republic</p>
+            </div>
+
+            <a
+              href="https://www.google.com/maps/place/Noemy+Rent+Car/@19.375092,-70.3511705,19.5z/data=!4m5!3m4!1s0x8eae29ce77c950ed:0xda0d394ab87ee4f0!8m2!3d19.3752355!4d-70.3510294"
+              target="_blank"
+            >
+              {" "}
+              Ver en Mapa
+            </a>
           </div>
           <div className="column">
             <form action="/action_page.php">
